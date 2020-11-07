@@ -5,7 +5,16 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+      extend: {
+		  colors: {
+			  black: "#111",
+			  white: "#fffff8",
+		  }
+	  },
+	  fontFamily: {
+		  display: ['Helvetica', 'sans-serif'],
+		  body: ['Helvetica', 'sans-serif']
+	  }
   },
   variants: {},
   plugins: [],
