@@ -14,12 +14,13 @@ const mainMenuButton = get("#mainMenuButton");
 const openButtonSVG = get("#openButton");
 const closeButtonSVG = get("#closeButton");
 const mobileMenu = get("#mobileMenu");
+const menuEntries = getAll(".menu a");
 
 // Change from
 // hidden -> block and block -> hidden on button
 
 // Functions
-mainMenuButton.addEventListener("click", (e) => {
+mainMenuButton.addEventListener("click", () => {
 	// TODO:
 	// Implement a lock for the hidden state
 	// i.e. we must prevent both buttons from
@@ -29,3 +30,14 @@ mainMenuButton.addEventListener("click", (e) => {
 	closeButtonSVG.classList.toggle("hidden");
 	mobileMenu.classList.toggle("hidden");
 });
+
+menuEntries.forEach(entry => {
+	entry.addEventListener("click", (event) => {
+		get("#topic-text").innerText =
+			event.currentTarget.dataset.topic;
+
+		get("#header-text").innerText =
+			event.currentTarget.innerText;
+	});
+});
+
