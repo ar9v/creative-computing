@@ -8,20 +8,19 @@
 	<title>Computación Creativa</title>
 	<link rel="stylesheet" href="build/tailwind.css">
 	<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
-	<!-- <script src="sketch.js"></script> -->
 	<script src="menu-controls.js" defer></script>
   </head>
-  <body class="bg-black">
+  <body class="flex flex-col bg-black h-screen">
 
 	<!-- Header -->
-	<div class="relative bg-black overflow-hidden">
+	<div class="relative bg-black">
 	  <div class="max-w-screen-xl mx-auto">
 
-		<!-- Green stripe in header -->
+		<!-- Purple stripe in header -->
 		<div class="relative z-10 pb-8 bg-black sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
 		  <svg class="hidden lg:block 
 					  absolute right-0 inset-y-0 
-					  h-full w-48 text-green-600 
+					  h-full w-48 text-purple-400 
 					  transform translate-x-1/2"
 			   fill="currentColor"
 			   viewBox="0 0 100 100"
@@ -34,7 +33,6 @@
 		  </div>
 
 		  <div class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-
 			<!-- Page title -->
 			<div class="sm:text-center lg:text-left">
 
@@ -45,7 +43,7 @@
 
 				<br class="xl:hidden">
 
-				<span class="text-green-600">
+				<span class="text-purple-400">
 				  Creativa
 				</span>
 
@@ -66,59 +64,75 @@
 	  </div>
 	</div>
 
-
 	<!-- Content -->
-	<main class="">
-	  <h1 class="text-5xl font-extrabold text-white text-center">
-		Explora
-	  </h1>
-	  <ul class="grid lg:grid-cols-4 text-5xl lg:text-4xl m-5 gap-3">
-		<li style="background-image: url(img/rusher.jpeg)"
-			class="h-64 tracking-tight leading-10    
-				   font-extrabold text-white 
-				   sm:leading-none bg-cover
-				   transition duration-500 ease-in-out 
-				   transform hover:-translate-y-1 
-				   hover:scale-105">
-			Jack
+	<h1 class="text-6xl font-extrabold text-white text-center"> Explora </h1>
 
+	<!-- <ul class="grid lg:grid-cols-4 text-5xl lg:text-4xl m-5 gap-3"> -->
+	<ul class="lg:flex lg:flex-1 lg:flex-wrap lg:place-content-center
+			   text-5xl lg:text-4xl
+			   px-10">
+	  <a href="rusher.html" class="flex-grow p-2 w-1/4
+								   transition ease-in-out duration-75
+								   transform focus:translate-y-8">
+		<li style="background-image: url(img/rusher.jpeg)"
+			class="h-64 tracking-tight leading-10
+				   font-extrabold text-white
+				   sm:leading-none bg-cover
+				   opacity-75
+				   transition duration-500 ease-in-out
+				   transform hover:-translate-y-1
+				   hover:scale-105 hover:opacity-100">
+			Jack
 			<span class="text-green-600">
 			  Rusher
 			</span>
 		</li>
+	  </a>
 
+	  <a href="neauoire.html" class="flex-grow p-2 w-1/4 
+									 transition ease-in-out duration-75 
+									 transform focus:translate-y-8"> 
 		<li style="background-image: url(img/neauoire.jpg)"
 			class="h-64 tracking-tight leading-10
-				font-extrabold 
-				sm:leading-none text-current bg-cover bg-center
-				transition duration-500 ease-in-out 
-				transform hover:-translate-y-1 
-				hover:scale-105">
-			Neauoire
+				   font-extrabold
+				   sm:leading-none text-current bg-cover bg-center
+				   opacity-75
+				   transition duration-500 ease-in-out
+				   transform hover:-translate-y-1
+				   hover:scale-105 hover:opacity-100">
+		  Neauoire
 		</li>
+	  </a>
 
+	  <a href="inconvergent.html" class="flex-grow p-2 w-1/4
+										 transition ease-in-out duration-75
+										 transform focus:translate-y-8">
 		<li style="background-image: url(img/inconvergent.jpeg)"
 			class="h-64 tracking-tight leading-10
-					font-extrabold 
-					sm:leading-none text-gray-600 bg-cover md:bg-left-top
-					transition duration-500 ease-in-out 
-					transform hover:-translate-y-1 
-					hover:scale-105">
-			  Inconvergent
+				   font-extrabold
+				   sm:leading-none text-gray-600 bg-cover md:bg-left-top
+				   opacity-75
+				   transition duration-500 ease-in-out
+				   transform hover:-translate-y-1
+				   hover:scale-105 hover:opacity-100">
+		  Inconvergent
 		</li>
+	  </a>
 
+	  <a href="processing.html" class="flex-grow p-2 w-1/4
+									   transition ease-in-out duration-75
+									   transform focus:translate-y-8">
 		<li style="background-image: url(img/laurenleemccarthy.jpg)"
 			class="h-64 tracking-tight leading-10
-					font-extrabold 
-					sm:leading-none text-pink-600 bg-cover sm:bg-right-top
-					transition duration-500 ease-in-out 
-					transform hover:-translate-y-1 
-					hover:scale-105">
-			  Processing
-		  </div>
+				   font-extrabold
+				   sm:leading-none text-pink-600 bg-cover sm:bg-right-top
+				   opacity-75
+				   transition duration-500 ease-in-out
+				   transform hover:-translate-y-1
+				   hover:scale-105 hover:opacity-100">
+		  Processing
 		</li>
-
-	  </ul>
-	</main>
+	  </a>
+	</ul>
   </body>
 </html>
