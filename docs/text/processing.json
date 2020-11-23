@@ -1,0 +1,23 @@
+{
+	"brightness": {
+		"title": "Brightness",
+		"description": "Explorando una imagen",
+		"explanation": "Poco a poco, descubriendo una imagen",
+		"link": "https://p5js.org/examples/color-brightness.html",
+		"bg": "/img/works/processing/brightness.png"
+	},
+	"hue": {
+		"title": "Hue",
+		"description": "Movimiento con color",
+		"explanation": "Ejemplo de cambio de color",
+		"link": "https://p5js.org/examples/color-hue.html",
+		"bg": "/img/works/processing/hue.png"
+	},
+	"oscillator": {
+		"title": "Oscillator",
+		"description": "Movimiento con sonido",
+		"explanation": "Ejemplo de controlar un oscilador",
+		"link": "https://p5js.org/examples/sound-oscillator-frequency.html",
+		"bg": "/img/works/processing/oscillator.png"
+	}
+}
