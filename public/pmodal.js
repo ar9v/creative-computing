@@ -1,3 +1,5 @@
+import { noteSketch, hueSketch } from './sketch.js'
+
 // Check for the artist, to know which json to load
 let jsonName = document.querySelector('body').id
 let titleElem = document.querySelector('#workTitle')
@@ -21,7 +23,26 @@ function fillModal(element) {
 	titleElem.innerHTML = info.title
 	descrElem.innerHTML = info.description
 	explElem.innerHTML = info.explanation
-	modalImage.src = info.bg
+
+	// modalImage may be null because
+	// processing doesn't use an image
+	if(modalImage != undefined) {
+		modalImage.src = info.bg
+	}
+
+	if(sketchHolder) {
+		if(element.id == "brightness") {
+			// new p5(brightSketch, 'sketch-holder')
+		}
+		else if(element.id == "hue") {
+			new p5(hueSketch, 'sketch-holder')
+			// new p5(hueSketch, 'sketch-holder')
+		}
+		else { 	// element.id == "oscillator"
+			new p5(noteSketch, 'sketch-holder')
+		}
+	}
+
 	link.href = info.link
 }
 
@@ -53,3 +74,12 @@ modalClosing.forEach(closingElement => {
 		cleanUp()
 	});
 });
+
+// Canvas manipulation
+function cleanUp() {
+	document.querySelector("canvas").remove()
+}
+
+// new p5(brightSketch, 'sketch-holder')
+// let hsketch = new p5(hueSketch, 'sketch-holder')
+// let nsketch = new p5(noteSketch, 'sketch-holder')
