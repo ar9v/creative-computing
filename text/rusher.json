@@ -5,7 +5,7 @@
 		"explanation":
 			"En esta pieza, que establece un diálogo entre persona y máquina, Jack Rusher contribuyó con la provisión de fuentes de computadoras ochenteras. Es de particular interés que podemos apreciar una conjugación de elementos pasados resignificados para hablar del futuro: una propuesta que David Hockney hizo en The Secret Knowledge.",
 		"link": "https://nand.io/projects/anyone-still-working-here",
-		"bg": "/img/works/rusher/fut-close-up.jpg"
+		"bg": "img/works/rusher/fut-close-up.jpg"
 	},
 	"pot": {
 		"title": "Flower Pot I",
@@ -13,7 +13,7 @@
 		"explanation":
 		"Quizás una de las propuestas más interesantes de Canclini radica en la reevaluación de la postura de Bourdieu respecto al valor práctico del arte popular versus al valor estético del llamado alto arte. En esta pieza, Rusher diseña una maceta geométrica, la cuál encuentra su realización gracias a la impresión en 3D. Una característica del arte digital es la reivindicación de lo práctico.",
 		"link": "http://jackrusher.com/journal/march-2017-sketchbook.html",
-		"bg": "/img/works/rusher/pot.png"
+		"bg": "img/works/rusher/pot.png"
 	},
 	"symmetry": {
 		"title": "Untitled",
@@ -21,6 +21,6 @@
 		"explanation":
 		"Muchas obras se dan no sólo por técnica, sino por tiempo y lugar. El avance de la tecnología ha permitido la creación de efectos de textura y alumbrado que eran inconcebibles hace apenas un par de décadas. En esta pieza, Rusher explora la posibilidad de dar un semblante arenoso. Este ejercicio de simulación está presente en todos los artistas digitales, donde la mímesis no es despreciada.",
 		"link": "http://jackrusher.com/journal/november-sketchbook.html",
-		"bg": "/img/works/rusher/symmetry.jpg"
+		"bg": "img/works/rusher/symmetry.jpg"
 	}
 }

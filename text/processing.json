@@ -2,22 +2,25 @@
 	"brightness": {
 		"title": "Brightness",
 		"description": "Explorando una imagen",
-		"explanation": "Poco a poco, descubriendo una imagen",
+		"explanation":
+		"Brightness demo",
 		"link": "https://p5js.org/examples/color-brightness.html",
-		"bg": "/img/works/processing/brightness.png"
+		"bg": "img/works/processing/brightness.png"
 	},
 	"hue": {
 		"title": "Hue",
 		"description": "Movimiento con color",
-		"explanation": "Ejemplo de cambio de color",
+		"explanation":
+		"Este ejemplo permite explorar el espectro de colores con movimiento. Mueve tu mouse hacia los lados para pintar partes diferentes del lienzo y cambia el color moviendo el mouse en el eje vertical.",
 		"link": "https://p5js.org/examples/color-hue.html",
-		"bg": "/img/works/processing/hue.png"
+		"bg": "img/works/processing/hue.png"
 	},
 	"oscillator": {
 		"title": "Oscillator",
 		"description": "Movimiento con sonido",
-		"explanation": "Ejemplo de controlar un oscilador",
+		"explanation":
+		"Aquí podemos visualizar el sonido de un oscilador, tanto su posición como amplitud. Teclea letras para activar sonidos, y explora cuáles están disponibles y qué sonidos hacen.",
 		"link": "https://p5js.org/examples/sound-oscillator-frequency.html",
-		"bg": "/img/works/processing/oscillator.png"
+		"bg": "img/works/processing/oscillator.png"
 	}
 }

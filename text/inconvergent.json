@@ -5,7 +5,7 @@
 		"explanation":
 		"En la discusión sobre qué es arte y qué no es arte, mucho se dice sobre procesos. En ese sentido, quizás es el proceso lo que hace que esta pieza sea muy interesante. En cualquier otro momento, la escritura de alguien podría ser considerada, a lo sumo, bonita y no le prestaríamos demasiada atención. Aquí, por otra parte, tenemos la simulación de la escritura a través de un brazo robótico programado. ¿Acaso hay algo más humano que esto?",
 		"link": "https://img.inconvergent.net/plot/",
-		"bg": "/img/works/inconvergent/plot.jpeg"
+		"bg": "img/works/inconvergent/plot.jpeg"
 	},
 	"gen": {
 		"title": "Gen art",
@@ -13,7 +13,7 @@
 		"explanation":
 		"El arte generativo de Anders Hoff ha explorado desde lo geométrico hasta lo biológico. Aunque la adopción de la computadora como productora de las obras en cuestión sea controversial, podemos hablar de la manera en que puede producir, de maneras inéditas, patrones que nos unen necesariamente por su naturaleza.",
 		"link": "https://img.inconvergent.net/generative/",
-		"bg": "/img/works/inconvergent/gen.jpeg"
+		"bg": "img/works/inconvergent/gen.jpeg"
 	},
 	"print": {
 		"title": "Print",
@@ -21,6 +21,6 @@
 		"explanation":
 		"Como ocurre con su obra caligráfica, en su obra impresa lo inédito es el suceso que involucra la inserción de algo producido por la computadora al mundo físico, tangible. Lo que otrora fuera la pura técnica de los artistas renacentistas, que se apoyaban con espejos para dominar la profundidad, ahora es el conocimiento matemático para plasmar trazos que simulan volumen.",
 		"link": "https://img.inconvergent.net/print/",
-		"bg": "/img/works/inconvergent/print.jpeg"
+		"bg": "img/works/inconvergent/print.jpeg"
 	}
 }
