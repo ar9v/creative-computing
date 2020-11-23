@@ -12,8 +12,8 @@ module.exports = {
 		  }
 	  },
 	  fontFamily: {
-		  display: ['Helvetica', 'sans-serif'],
-		  body: ['Helvetica', 'sans-serif']
+		  sans: ['Arial'],
+		  serif: ['Arial']
 	  }
   },
   variants: {},
