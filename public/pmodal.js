@@ -67,7 +67,7 @@ modalOpeners.forEach(opener => {
 });
 
 const overlay = document.querySelector('.modal-overlay')
-// overlay.addEventListener('click', toggleModal)
+overlay.addEventListener('click', () => { toggleModal(); cleanUp(); })
 
 let modalClosing = document.querySelectorAll('.modal-close')
 modalClosing.forEach(closingElement => {
