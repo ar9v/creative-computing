@@ -26,6 +26,8 @@ export let hueSketch = (p, n) => {
 export let noteSketch = (p, n) => {
 
 	p.scaleArray = [60, 62, 64, 65, 67, 69, 71, 72];
+	p.canvasWidth = document.querySelector("#sketch-holder").offsetWidth;
+	p.canvasHeight = document.querySelector("#sketch-holder").offsetHeight;
 	p.noteKeys = {
 		'a': 60,
 		'w': 61,
@@ -44,7 +46,7 @@ export let noteSketch = (p, n) => {
 	p.note = 0;
 
 	p.setup = function () {
-		p.createCanvas(710, 200);
+		p.createCanvas(p.canvasWidth, p.canvasHeight);
 		p.osc = new p5.SinOsc();
 
 		// Instantiate the envelope

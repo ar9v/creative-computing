@@ -2,21 +2,24 @@
 	"dotgrid": {
 		"title": "Dotgrid",
 		"description": "Vectores cuadriculados",
-		"explanation": "Una herramienta para dibujo de vectores simple",
+		"explanation":
+		"Dotgrid es una herramienta para dibujar vectores en una cuadrícula. Una consideración principal en su diseño es la simplicidad. La simplicidad tiene múltiples implicaciones, entre las cuáles está la sustentabilidad y el fácil acceso. Considerando la alta demanda de recursos en las cuáles incurren programas como Photoshop, y sus altos costos, la creación de herramientas como estas supone una actividad tan creativa como política.",
 		"link": "https://100r.co/site/dotgrid.html",
 		"bg": "/img/works/neauoire/dotgrid.jpg"
 	},
 	"orca": {
 		"title": "Orca",
 		"description": "Mini livecoding",
-		"explanation": "Lenguaje de programación esotérico",
+		"explanation":
+		"Aunque muchas obras aquí expuestas tienen connotaciones políticas, de accesibilidad y demás, no necesariamente deben atenerse a estas reglas. Orca es un entorno y lenguaje de programación esotérico cuyo mayor valor artístico es acaso reimaginar la producción de música en términos visuales. El entorno, además, funge como productor de señales para diferentes tipos de interfaces de audio, promoviendo el uso abierto. En la creación de una comunidad podemos ver, por ejemplo, la conexión que supone la distribución y el mutuo acuerdo del aprendizaje de esta herramienta.",
 		"link": "https://100r.co/site/orca.html",
 		"bg": "/img/works/neauoire/orca.jpg"
 	},
 	"ronin": {
 		"title": "Ronin",
 		"description": "Dibujando con Lisp",
-		"explanation": "Lisp drawing. Herramienta para procesar imágenes",
+		"explanation":
+		"De manera similar a Dotgrid, Ronin es una herramienta de manipulación de gráficas. Quizás en un sentido similar a Rusher, Neauoire explora uno de los lenguajes más longevos de la programación, y lo presenta según su entendimiento. Aquí vemos tanto un movimiento por facilitar el acceso a herramientas de edición gráfica como un movimiento por presentar la programación como algo común.",
 		"link": "https://100r.co/site/ronin.html",
 		"bg": "/img/works/neauoire/ronin.jpg"
 	}

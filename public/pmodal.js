@@ -9,6 +9,8 @@ let modalImage = document.querySelector('#modalImage')
 let sketchHolder = document.querySelector("#sketch-holder")
 let link = document.querySelector('#link')
 let pageData
+var hsk
+var osk
 
 // Get the page data
 fetch(`text/${jsonName}`)
@@ -35,11 +37,11 @@ function fillModal(element) {
 			// new p5(brightSketch, 'sketch-holder')
 		}
 		else if(element.id == "hue") {
-			new p5(hueSketch, 'sketch-holder')
+			hsk = new p5(hueSketch, 'sketch-holder')
 			// new p5(hueSketch, 'sketch-holder')
 		}
 		else { 	// element.id == "oscillator"
-			new p5(noteSketch, 'sketch-holder')
+			osk = new p5(noteSketch, 'sketch-holder')
 		}
 	}
 
@@ -65,7 +67,7 @@ modalOpeners.forEach(opener => {
 });
 
 const overlay = document.querySelector('.modal-overlay')
-overlay.addEventListener('click', toggleModal)
+// overlay.addEventListener('click', toggleModal)
 
 let modalClosing = document.querySelectorAll('.modal-close')
 modalClosing.forEach(closingElement => {
@@ -78,6 +80,7 @@ modalClosing.forEach(closingElement => {
 // Canvas manipulation
 function cleanUp() {
 	document.querySelector("canvas").remove()
+	osk.remove()
 }
 
 // new p5(brightSketch, 'sketch-holder')
