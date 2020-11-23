@@ -11,6 +11,7 @@
 		type="image/png" 
 		href="favicon.png">
 	<script src="menu-controls.js" defer></script>
+	<script src="modal.js" defer></script>
 	<style>
       .modal {
 		  transition: opacity 0.25s ease;
@@ -21,8 +22,7 @@
       }
 	</style>
   </head>
-  <!-- <body class="bg-black flex flex-col h-screen"> -->
-  <body class="bg-black flex flex-col h-screen">
+  <body class="bg-black flex flex-col h-screen" id="rusher.json">
 
 	<!-- Header -->
 	<div class="relative bg-black"> 
@@ -243,18 +243,20 @@
 					px-4">
 
 	  <!-- Card 1 -->
-      <button class="flex flex-grow flex-col p-10 lg:w-1/3 modal-open">
+      <button class="flex flex-grow flex-col p-10 lg:w-1/3 modal-open"
+			  id="futurium">
         <div class="pattern-dots-md text-green-600 card">
           <div class="rounded bg-black border-8 border-green-600 solid h-64 
 					  py-2 transform translate-x-6 -translate-y-6 
 					  bg-cover bg-center"
-			   style="background-image: url(img/fut-close-up.jpg)">
+			   style="background-image: url(img/works/rusher/fut-close-up.jpg)">
         </div>
       </button>
 
 	  <!-- Card 2 -->
 	  <!-- Flower Pot I -->
-      <button class="flex flex-grow flex-col p-10 lg:w-1/3 modal-open">
+      <button class="flex flex-grow flex-col p-10 lg:w-1/3 modal-open"
+			  id="pot">
         <div class="pattern-dots-md text-green-600 card">
           <div class="rounded bg-black border-8 border-green-600 solid h-64 
 					  p-4 transform translate-x-6 -translate-y-6 
@@ -265,7 +267,8 @@
 
 	  <!-- Card 3 -->
 	  <!-- Untitled -->
-      <button class="flex flex-grow flex-col p-10 lg:w-1/3 modal-open">
+      <button class="flex flex-grow flex-col p-10 lg:w-1/3 modal-open"
+			  id="symmetry">
         <div class="pattern-dots-md text-green-600 card">
           <div class="rounded bg-black border-8 border-green-600 solid h-64 
 					  p-4 transform translate-x-6 -translate-y-6 
@@ -311,8 +314,8 @@
 
 			  <!-- Image -->
 			  <div class="rounded-lg h-64 overflow-hidden">
-				<img alt="content" class="object-cover object-center h-full w-full"
-					 src="img/fut-close-up.jpg">
+				<img alt="" class="object-cover object-center h-full w-full"
+					 src="" id="modalImage">
 			  </div>
 
 			  <div class="flex flex-col sm:flex-row mt-10">
@@ -320,19 +323,19 @@
 				<div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
 				  <!-- Titulo de obra -->
 				  <div class="flex flex-col items-center text-center justify-center">
-					<h2 class="font-medium title-font mt-4 text-white text-lg">Obra 1</h2>
+					<h2 class="font-medium title-font mt-4 text-white text-lg" id="workTitle">Obra 1</h2>
 					<div class="w-12 h-1 bg-green-600 rounded mt-2 mb-4"></div>
-					<p class="text-base text-gray-600">Some description</p>
+					<p class="text-base text-gray-600" id="description">Some description</p>
 				  </div>
 				</div>
 
 				<!-- Texto explicativo -->
 				<div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-300 
 							sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-				  <p class="leading-relaxed text-lg mb-4">
+				  <p class="leading-relaxed text-lg mb-4" id="explanation">
 
 				  </p>
-				  <a class="text-green-600 inline-flex items-center" href="">
+				  <a class="text-green-600 inline-flex items-center" href="" id="link" target="_blank">
 					Ir a sitio
 					<svg fill="none"
 						 stroke="currentColor"

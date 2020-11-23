@@ -1,0 +1,23 @@
+{
+	"futurium": {
+		"title": "Anyone Still Working Here?",
+		"description": "Rescatando la estética ochentera",
+		"explanation": "Un robot te recuerda lo deprimente",
+		"link": "https://nand.io/projects/anyone-still-working-here",
+		"bg": "/img/works/rusher/fut-close-up.jpg"
+	},
+	"pot": {
+		"title": "Flower Pot I",
+		"description": "Un prototipo con LuxRender",
+		"explanation": "Algo de texto",
+		"link": "http://jackrusher.com/journal/march-2017-sketchbook.html",
+		"bg": "/img/works/rusher/pot.png"
+	},
+	"symmetry": {
+		"title": "Untitled",
+		"description": "Simulando la arena",
+		"explanation": "Arenoso",
+		"link": "http://jackrusher.com/journal/november-sketchbook.html",
+		"bg": "/img/works/rusher/symmetry.jpg"
+	}
+}

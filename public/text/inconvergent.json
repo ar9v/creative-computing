@@ -1,0 +1,23 @@
+{
+	"plot": {
+		"title": "Plot",
+		"description": "La escritura robótica",
+		"explanation": "Escribiendo con un plotter, simulando humanidad",
+		"link": "https://img.inconvergent.net/plot/",
+		"bg": "/img/works/inconvergent/plot.jpeg"
+	},
+	"gen": {
+		"title": "Gen art",
+		"description": "De la regla al arte",
+		"explanation": "Generando elementos digitales",
+		"link": "https://img.inconvergent.net/generative/",
+		"bg": "/img/works/inconvergent/gen.jpeg"
+	},
+	"print": {
+		"title": "Print",
+		"description": "Matemática sobre opalina",
+		"explanation": "Buscando simular la tercera dimensión",
+		"link": "https://img.inconvergent.net/print/",
+		"bg": "/img/works/inconvergent/print.jpeg"
+	}
+}

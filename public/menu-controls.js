@@ -25,30 +25,4 @@ cards.forEach(card => {
 		card.classList.toggle("animate-pulse")
 	});
 });
-
-// Modal controls
-function toggleModal () {
-    const body = document.querySelector('body')
-    const modal = document.querySelector('.modal')
-    modal.classList.toggle('opacity-0')
-    modal.classList.toggle('pointer-events-none')
-    body.classList.toggle('modal-active')
-}
-
-let modalOpeners = document.querySelectorAll('.modal-open')
-modalOpeners.forEach(opener => {
-	opener.addEventListener('click', event => {
-		event.preventDefault()
-		toggleModal()
-	});
-});
-
-const overlay = document.querySelector('.modal-overlay')
-overlay.addEventListener('click', toggleModal)
-
-let modalClosing = document.querySelectorAll('.modal-close')
-modalClosing.forEach(closingElement => {
-	closingElement.addEventListener('click', toggleModal);
-});
-
      

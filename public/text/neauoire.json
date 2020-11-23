@@ -1,0 +1,23 @@
+{
+	"dotgrid": {
+		"title": "Dotgrid",
+		"description": "Vectores cuadriculados",
+		"explanation": "Una herramienta para dibujo de vectores simple",
+		"link": "https://100r.co/site/dotgrid.html",
+		"bg": "/img/works/neauoire/dotgrid.jpg"
+	},
+	"orca": {
+		"title": "Orca",
+		"description": "Mini livecoding",
+		"explanation": "Lenguaje de programación esotérico",
+		"link": "https://100r.co/site/orca.html",
+		"bg": "/img/works/neauoire/orca.jpg"
+	},
+	"ronin": {
+		"title": "Ronin",
+		"description": "Dibujando con Lisp",
+		"explanation": "Lisp drawing. Herramienta para procesar imágenes",
+		"link": "https://100r.co/site/ronin.html",
+		"bg": "/img/works/neauoire/ronin.jpg"
+	}
+}
